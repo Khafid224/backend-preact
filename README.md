@@ -13,3 +13,7 @@ npm create [email protected] belajar-preact -- --template preact
 ![image](https://github.com/user-attachments/assets/407c5618-ae8b-405f-95ca-13e2674807a9)
 ![image](https://github.com/user-attachments/assets/81f1bd03-ac7c-4d00-ac41-5f99d82ef15a)
 
+## uji coba edit dan update di preact
+
+![image](https://github.com/user-attachments/assets/6e4135e0-097e-4cb8-9325-f383a6141a76)
+![image](https://github.com/user-attachments/assets/419b4180-ea9e-4b66-b47e-79c8ecbb3021)
