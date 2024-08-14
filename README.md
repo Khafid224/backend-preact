@@ -17,3 +17,11 @@ npm create [email protected] belajar-preact -- --template preact
 
 ![image](https://github.com/user-attachments/assets/6e4135e0-097e-4cb8-9325-f383a6141a76)
 ![image](https://github.com/user-attachments/assets/419b4180-ea9e-4b66-b47e-79c8ecbb3021)
+
+## uji coba delete data
+
+![image](https://github.com/user-attachments/assets/9fa5e7ef-4202-41ec-abe0-945d914b19ea)
+
+jika klik ok, maka akan melakukan proses delete data di dalam server dan akan mendapatkan hasil seperti dibawah ini
+![image](https://github.com/user-attachments/assets/e4260f09-a7a1-4c3a-9d78-6c673168a645)
+
