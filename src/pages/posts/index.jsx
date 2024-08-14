@@ -26,6 +26,15 @@ export default function PostIndex() {
     fetchDataPosts();
   }, []);
 
+  //method deletePost
+  const deletePost = async (id) => {
+    //delete with api
+    await api.delete(`/api/posts/${id}`).then(() => {
+      //call method "fetchDataPosts"
+      fetchDataPosts();
+    });
+  };
+
   return (
     <div className="container mt-5 mb-5">
       <div className="row">
@@ -70,7 +79,14 @@ export default function PostIndex() {
                           >
                             EDIT
                           </Link>
-                          <button className="btn btn-sm btn-danger rounded-sm shadow border-0">
+                          <button
+                            onClick={() => {
+                              if (window.confirm("Delete the item?")) {
+                                deletePost(post.id);
+                              }
+                            }}
+                            className="btn btn-sm btn-danger rounded-sm shadow border-0"
+                          >
                             DELETE
                           </button>
                         </td>
